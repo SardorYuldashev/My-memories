@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container2 {
+    min-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'IEL-300';
+    src: url('../fonts/Inter-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'IEM-500';
+    src: url('../fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'IER-400';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'IESB-600';
+    src: url('../fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'LB-700';
+    src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'LR-400';
+    src: url('../fonts/Lato-Regular.ttf');
+}

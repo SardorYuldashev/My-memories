@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="icon" href="../images/logo.svg">
+  <title>My memories</title>
+</head>
+
+<body class="generalBody">
+
+  <section class="sidebar">
+    <div class="sidebar__content">
+      <h2 class="sidebar__content-title">
+        <span>my</span>memories
+      </h2>
+
+      <button class="sidebar__content-btn">
+        CREATE THEME
+      </button>
+
+      <div class="sidebar__content-category">
+        <img src="../images/logo.svg" alt="like" class="sidebar__content-icon sidebar__content-all">
+        <a href="#!" class="sidebar__content-button categoryAll">
+          All memorise
+        </a>
+      </div>
+
+      <div class="sidebar__content-category">
+        <img src="../images/like.svg" alt="like" class="sidebar__content-icon">
+        <a href="#!" class="sidebar__content-button categoryLike">
+          Liked memorise
+        </a>
+      </div>
+
+      <div class="sidebar__content-category">
+        <img src="../images/dislike.svg" alt="dislike" class="sidebar__content-icon">
+        <a href="#!" class="sidebar__content-button categoryDislike">
+          Disliked memorise
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <form class="header__nav-form">
+          <input type="text" class="header__nav-input" placeholder="write theme">
+          <img src="../images/search.svg" class="header__nav-search"></img>
+        </form>
+
+        <h2 class="header__nav-name">
+          <!-- Sardor -->
+        </h2>
+
+        <div class="header__nav-buttons">
+          <a href="#!" class="header__nav-exit">LOGOUT</a>
+          <a href="#!" class="header__nav-delete">DELETE<br>ACCOUNT</a>
+        </div>
+        
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container2">
+      <div class="main__content">
+        <div class="main__content-box">
+
+          <!-- <div class="item">
+            <div class="item__left">
+              <div class="item__left-image">
+                <img src="../images/square.svg" alt="" class="item__left-img">
+              </div>
+
+              <div class="item__left-category">
+                <img src="../images/like.svg" alt="like" class="item__left-icon">
+                <img src="../images/dislike.svg" alt="dislike" class="item__left-icon ">
+              </div>
+            </div>
+
+            <div class="item__right">
+              <h2 class="item__right-title">
+                Shamollarda qolgan...
+              </h2>
+
+              <p class="item__right-text">
+                Urush boshlanadi. Charliz qurolli kuchlar majmuasiga xizmatga ketadi. Lekin jangda ishtirok...
+              </p>
+
+              <p class="item__right-date">
+                01/01/2023
+              </p>
+            </div>
+
+            <div class="item__hover">
+              <img src="../images/trash.svg" alt="trash" class="item__hover-icon cardTrash">
+              <img src="../images/edit.svg" alt="redact" class="item__hover-icon cardRedact">
+              <img src="../images/plus.svg" alt="plus" class="item__hover-icon cardPlus">
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="create">
+    <div class="container">
+      <div class="create__content">
+        <nav class="create__nav">
+          <h2 class="create__nav-title">
+            <span>create</span>memories
+          </h2>
+
+          <a href="#!" class="create__nav-btn">X</a>
+        </nav>
+
+        <form class="create__content-form">
+          <div class="create__content-item">
+            <input type="text" class="create__content-input createTitle" placeholder="enter title" required>
+            <img src="../images/pen.svg" alt="pen" class="create__content-icon">
+          </div>
+
+          <div class="create__content-item">
+            <input type="text" class="create__content-input createImg" placeholder="enter img url" required>
+            <img src="../images/pen.svg" alt="pen" class="create__content-icon">
+          </div>
+
+          <div class="create__content-item">
+            <input type="text" class="create__content-input createDescription" placeholder="enter description" required>
+            <img src="../images/pen.svg" alt="pen" class="create__content-icon">
+          </div>
+
+          <div class="create__content-buttons">
+            <button class="create__content-createBtn">
+              CREATE
+            </button>
+
+            <button class="create__content-cancelBtn">
+              CANCEL
+            </button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="edit">
+    <div class="container">
+      <div class="edit__content">
+        <nav class="edit__nav">
+          <h2 class="edit__nav-title">
+            <span>edit</span>memories
+          </h2>
+
+          <a href="#!" class="edit__nav-btn">X</a>
+        </nav>
+
+        <form class="edit__content-form">
+          <div class="edit__content-item">
+            <input type="text" class="edit__content-input editTitle" placeholder="enter title" required>
+            <img src="../images/pen.svg" alt="pen" class="edit__content-icon">
+          </div>
+
+          <div class="edit__content-item">
+            <input type="text" class="edit__content-input editImg" placeholder="enter img url" required>
+            <img src="../images/pen.svg" alt="pen" class="edit__content-icon">
+          </div>
+
+          <div class="edit__content-item">
+            <input type="text" class="edit__content-input editDescription" placeholder="enter description" required>
+            <img src="../images/pen.svg" alt="pen" class="edit__content-icon">
+          </div>
+
+          <div class="edit__content-buttons">
+            <button class="edit__content-createBtn">
+              EDIT
+            </button>
+
+            <button class="edit__content-cancelBtn">
+              CANCEL
+            </button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <section class="view">
+    <div class="container">
+      <nav class="view__nav">
+        <h2 class="view__nav-title">
+          <span>view</span>memories
+        </h2>
+
+        <a href="#!" class="view__nav-btn">X</a>
+      </nav>
+
+      <div class="view__content">
+        <div class="view__content-box">
+          <div class="view__content-imgBox">
+            <img  alt="" class="view__content-img">
+          </div>
+          
+
+          <h2 class="view__content-title">
+            <!-- Shamollarda qolgan hislarim. -->
+          </h2>
+  
+          <p class="view__content-text">
+            <!-- Urush boshlanadi. Charlz qurolli kuchlar majmuasiga xizmatga ketadi. Lekin jangda ishtirok etishga ulgurmay, janubiy lagerlarning birida qizamiq orttirib halok bo'ladi. Skarlettda esa, undan meros evaziga o'g'li Ueyd qoladi. Skarlett 17 yoshida bevaga aylanadi. Endi u umrining oxirigacha motam kiyib yurishiga to'g'ri keladi. Skarlett uchun hayoti go'yo tugagandek edi. Oldingi o'yin-kulgular, raqslar va beg'amlik endi ortda qoldi. Hayotining bunday tez o'zgarib ketishidan ruhiy ta'sirlanib, Skarlett Atlantaga yo'l oladi. U yerda Charlining xolasi Pitti va Melani yashaydilar. Ularning uyligida turib Skarlett Eshliga yaqinroq bo'lishni umid qiladi. -->
+          </p>
+        </div>        
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  
+
+
+
+
+  <script src="../apps/main.js"></script>
+</body>
+</html>
